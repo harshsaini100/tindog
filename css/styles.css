@@ -1,0 +1,163 @@
+body{
+  font-family: "Montserrat";
+  text-align: center;
+}
+#title{
+  background-color: #ff4c68;
+  text-align: left;
+  /* height: px; */
+
+}
+h1,h2,h3,h4,h5,h6{
+  font-family: "Montserrat";
+  font-weight: bold;
+
+}
+
+.container-fluid{
+  padding: 3% 15% 0;
+}
+/* navbar */
+.navbar {
+  padding-bottom: 4.5rem;
+}
+.navbar-brand{
+  font-family: "Ubuntu";
+  font-weight: bold;
+  font-size: 2.5rem;
+}
+.nav-item{
+  padding: 0 18px;
+}
+.nav-link{
+  font-family: "Montserrat";
+  font-size: 1.2rem;
+  /* font-weight: 200; */
+}
+/* Title Image */
+.iphone{
+  width: 60%;
+  transform: rotate(25deg);
+  position: relative;
+  z-index: 1;
+
+}
+/* download button */
+.download-button{
+  margin: 5% 3% 5% 0;
+}
+/* Headings */
+.big-heading{
+  font-weight: 900;
+  font-size: 3rem;
+  line-height: 1.5;
+  color: white;
+}
+.section-heading{
+  font-size: 3rem;
+  line-height: 1.5;
+}
+
+.features{
+  font-family: "Montserrat";
+  font-weight: bold;
+  font-size: 1.5rem;
+
+
+}
+.fdes{
+  color: #8f8f8f;
+
+}
+.row{
+  margin: 60px auto 60px auto;
+}
+.center{
+  padding: 5%;
+}
+/* features section */
+#features{
+  /* padding: 7% 15%; */
+  position: relative;
+  z-index: 2;
+  background-color: white;
+}
+.icon{
+  color: #ef8172;
+  margin-bottom: 1rem;
+}
+.icon:hover {
+  color: #ff4c68;
+}
+#testimonials {
+  padding: 7% 15%;
+
+  background-color: #ef8172;
+  color: #fff;
+}
+.testimonial-image{
+  width: 10%;
+  border-radius: 100%;
+  margin: 20px;
+}
+.testimonial-text{
+  font-size: 3rem;
+  line-height: 1.5;
+}
+#press{
+  background: #ef8172;
+
+  padding-bottom: 3%;
+}
+.press-logo{
+  width: 15%;
+  margin: 20px 20px 50px;
+}
+.carousel-item{
+  transition: transform 0.5s;
+  padding: 7% 15%;
+}
+.clpse{
+  transition: height 0.5s;
+}
+/* pricing section */
+#pricing{
+  padding: 100px;
+
+}
+.pricing-column{
+  padding: 3% 2%;
+}
+.price-text{
+  font-size: 3rem;
+  line-height: 1.5;
+}
+@media (max-width: 1028px){
+  .iphone{
+    position: static;
+    transform: rotate(0);
+  }
+  #title{
+    text-align: center;
+  }
+}
+#cta{
+  background-color: #ff4c68;
+
+  padding: 7% 7%;
+}
+
+#footer{
+
+  padding: 7% 7% 5%;
+  line-height: 1.5;
+  background-color: white;
+}
+.Copyright{
+  padding-top: 3%;
+  color: #8f8f8f;
+  font-weight: bold;
+}
+.pr{
+  padding-right: 20px;
+}
